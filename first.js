@@ -114,3 +114,22 @@ number+number = number
 2009
 "10"+10+10-1
 101009
+
+"a"-1
+NaN
+"76"+1
+"761"
+"76"-1
+75
+"76"*2
+152
+"76"/2
+38
+"76"/"2"
+38
+"76a"/"2"
+NaN
+
+if both side number where as string or number with
++ they will concat
+- * / % they operate
