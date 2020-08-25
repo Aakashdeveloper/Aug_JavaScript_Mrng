@@ -99,3 +99,102 @@ mydata.replace(/JavaScript/g,'JS')
 var city = "    London .  "
 city.replace(/ /g,'')
 "London."
+
+
+slice(start,end?)
+substring(start,end?)
+substr(start,length?)
+/////////////////////
+var city = "Amsterdam"
+undefined
+city.slice(1)
+"msterdam"
+city.slice(2)
+"sterdam"
+city.slice(2,5)
+"ste"
+city.substring(1)
+"msterdam"
+city.substring(2)
+"sterdam"
+city.substring(2,5)
+"ste"
+
+city.substr(1)
+"msterdam"
+city.substr(2)
+"sterdam"
+city.substr(2,5)
+"sterd"
+
+
+/////////////////////////////////
+var city = "Amsterdam"
+undefined
+city.slice(-1)
+"m"
+city.substring(-1)
+"Amsterdam"
+
+city.slice(-1,-3)
+""
+city.substring(-1,-3)
+""
+
+city.slice(-1,3)
+""
+city.substring(-1,3)
+"Ams"
+city.substring(-2,5)
+"Amste"
+
+city.slice(1,-3)
+"mster"
+city.substring(1,-3)
+"A"
+
+city.slice(-3,-1)
+"da"
+city.slice(-5,-1)
+"erda"
+city.slice(-1,-5)
+""
+
+var city = "Amsterdam"
+undefined
+city.substr(-1)
+"m"
+city.substr(-1,-3)
+""
+city.substr(-3,-1)
+""
+city.substr(-3,1)
+"d"
+city.substr(-3,6)
+"dam"
+city.substr(-5,6)
+"erdam"
+city.substr(-5,4)
+"erda"
+
+var a = " i am doing jS"
+undefined
+a.slice(1)
+"i am doing jS"
+a.slice(2)
+" am doing jS"
+var a = 847869748
+
+var a = 847869748
+undefined
+a.toString()
+"847869748"
+""+a
+"847869748"
+a.toString().slice(1)
+"47869748"
+a.toString().slice(1).toLowerCase()
+"47869748"
+var b = a.toString()
+undefined
+var c = b.slice(1)

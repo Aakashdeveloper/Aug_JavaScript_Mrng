@@ -8,6 +8,7 @@ Ecma 7
 > String
 > Math
 > Github
+/////////////////////////
 > localstorage
 > sessionStorage
 > cookies
@@ -53,3 +54,23 @@ Ecma 7
 > Weather application
 > ajax
 > Baisc Jquery
+
+//////
+Github
+///
+
+{{first time for particular repo}}
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testjavascript.git
+git push -u origin master
+
+
+git pull
+
+{{next every time for particular repo}}
+git add .
+git commit -m "first commit"
+git push
