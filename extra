@@ -16,8 +16,8 @@ Ecma 7
 > ternery Operations
 > Date
 > switch
-/////////////////////////
 > regex
+/////////////////////////
 > array
 > loops
 > Functions
@@ -74,3 +74,6 @@ git pull
 git add .
 git commit -m "first commit"
 git push
+
+
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
