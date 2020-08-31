@@ -17,8 +17,8 @@ Ecma 7
 > Date
 > switch
 > regex
-/////////////////////////
 > array
+/////////////////////////
 > loops
 > Functions
 > maps,filter
@@ -77,3 +77,6 @@ git push
 
 
 https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+var password = "pushpa123";
+password.match("^([a-zA-Z0-9]{8,})$"); 
