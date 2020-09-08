@@ -26,18 +26,19 @@ Ecma 7
 > Clousers
 > Hoisting
 > null/undefined
-/////////////////////////
-> object 
+> package.JSON
+> npm
 > JSON
 > Es6
     > Transpile
     > import export
+/////////////////////////
+> object 
 > this 
-> package.JSON
-> npm
 > classes
 > Prototypes
 > Call/Apply
+
 > DoM
 > Calc
 > Geolocation
@@ -83,3 +84,12 @@ var password = "pushpa123";
 password.match("^([a-zA-Z0-9]{8,})$"); 
 
 pass.match("^([a-zA-Z0-9$@&]{8})$")
+
+
+//////
+generate package.JSON
+///////
+> go inside the folder
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register
