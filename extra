@@ -32,22 +32,22 @@ Ecma 7
 > Es6
     > Transpile
     > import export
-/////////////////////////
 > object 
 > this 
 > classes
 > Prototypes
-> Call/Apply
-
 > DoM
 > Calc
 > Geolocation
+/////////////////////////
 > Form validation
 > Event
-> Progress bar
 > currenyConvertor
 > promis
 > async await
+
+> Call/Apply
+> Progress bar
 > palindrome
 > fabonicci
 > factorial
